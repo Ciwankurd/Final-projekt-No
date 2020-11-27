@@ -34,7 +34,7 @@ nav ul li a{
     color: white;
 }
 nav ul li:hover{
-    background: #4DA8DA;
+    background: orangered;
     height: 5px;
     box-shadow: white 0 0 7px 0;
 }
@@ -126,9 +126,7 @@ footer{
 .dark-mode .smallbox {
     background: #1d3557;
 }
-.dark-mode h1 {
-    color: #fff;
-}
+/*--------------------------------REPOSNIVE---------------------*/
 @media screen and (max-width: 1100px) {
     .logo-img {
         display: none;
@@ -147,6 +145,7 @@ footer{
     }
 
 }
+
 @media screen and (max-width: 560px) {
     nav {
         height: 300px;
@@ -172,7 +171,12 @@ footer{
         font-size: 38px;
     }
 }
-/*------------------------RESPONSIVE------------------*/
+@media screen and (max-width: 450px){
+    .image-post{
+        width: 300px;
+
+    }
+}
 @media screen and (max-width: 400px){
 
     .logo{
@@ -211,6 +215,12 @@ footer{
     }
     .fontStyle{
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 250px){
+    .img-about{
+        width: 90%;
+        height: 50%;
     }
 }
 @media screen and (max-width: 250px){
